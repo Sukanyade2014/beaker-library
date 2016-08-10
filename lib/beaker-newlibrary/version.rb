@@ -1,6 +1,6 @@
 module Beaker
   module DSL
-    module Template
+    module newlibrary
 
       module Version
         STRING = '0.0.1rc0'
