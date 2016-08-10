@@ -1,5 +1,5 @@
 require 'spec_helper'
-require 'helpers.rb'
+require 'beaker-newlibrary'
 
 class ClassMixedWithDSLHelpers
   include BeakerTestHelpers
