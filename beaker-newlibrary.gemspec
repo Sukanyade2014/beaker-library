@@ -4,10 +4,10 @@ require 'beaker-newlibrary/version'
 
 Gem::Specification.new do |s|
   s.name        = "beaker-newlibrary"
-  s.version     = Beaker::DSL::newlibrary::Version::STRING
+  s.version     = Beaker::DSL::NewLibrary::Version::STRING
   s.authors     = ["Puppetlabs"]
   s.email       = ["qe-team@puppetlabs.com"]
-  #s.homepage    = "https://github.com/puppetlabs/beaker-newlibrary"
+  s.homepage    = "https://github.com/Sukanyade2014/beaker-library"
   s.summary     = %q{Beaker DSL Extension Helpers!}
   s.description = %q{For use for the Beaker acceptance testing tool}
   s.license     = 'Apache2'

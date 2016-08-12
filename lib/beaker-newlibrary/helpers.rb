@@ -1,6 +1,6 @@
 module Beaker
   module DSL
-    module newlibrary
+    module NewLibrary
       module Helpers
 
        def printhello

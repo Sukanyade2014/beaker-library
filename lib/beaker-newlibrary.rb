@@ -5,10 +5,10 @@ require 'beaker-newlibrary/version'
 
 module Beaker
   module DSL
-    module newlibrary
+    module NewLibrary
 
       # include your modules from the beaker-newlibrary folder. Example below:
-      include Beaker::DSL::newlibrary::Helpers
+      include Beaker::DSL::NewLibrary::Helpers
 
     end
   end
@@ -17,7 +17,7 @@ end
 
 # Boilerplate DSL inclusion mechanism:
 # First we register our module with the Beaker DSL
-Beaker::DSL.register( Beaker::DSL::newlibrary )
+Beaker::DSL.register( Beaker::DSL::NewLibrary )
 # Then we have to re-include our amended DSL in the TestCase,
 # because in general, the DSL is included in TestCase far
 # before test files are executed, so our amendments wouldn't
